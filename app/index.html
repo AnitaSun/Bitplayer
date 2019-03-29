@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<title>Qwerk</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.0/jsmediatags.js"></script>
+
+<link rel="stylesheet" href="css.css" />
+<body>
+  <album-mode active>
+    <album-art>
+      <img src="default.jpg">
+    </album-art>
+
+    <controller>
+      <album-info>
+        <artist></artist> - <track></track>
+        <br />
+        from '<album></album>'
+      </album-info>
+
+      <seekbar-area>
+        <seekbar></seekbar>
+        <seekbar-current></seekbar-current>
+      </seekbar-area>
+
+      <buttons>
+        <play>▶️</play>
+        <pause>⏸</pause>
+        <stop>⏹</stop>
+      </buttons>
+    </controller>
+  </album-mode>
+
+  <list-mode>
+    <ul list></ul>
+  </list-mode>
+
+  <player></player>
+</body>
+<script src="Bitplayer.js"></script>
